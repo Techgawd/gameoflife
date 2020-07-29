@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+header {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.grid img {
+  width: 70%;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.control-buttons button {
+  font-size: 20px;
+  /* margin-left: 25px;
+  margin-bottom: 20px; */
+  margin: 15px 0 25px 20px;
+  width: 12%;
+  background-color: blueviolet;
+  color: #fff;
+}
