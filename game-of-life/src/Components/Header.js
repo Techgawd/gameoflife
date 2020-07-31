@@ -5,7 +5,7 @@ function Header() {
     return (
       <div>
         <header>
-          <h1>Game of Life</h1>
+          <h1>Welcome to John Conway's "Game of Life"!</h1>
         </header>
       </div>
     )

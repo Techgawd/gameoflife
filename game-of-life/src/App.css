@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Old Standard TT', serif;
+  background-color: #EAECEF;
 }
 
 header {
@@ -13,8 +17,17 @@ header {
   color: #fff;
 }
 
-.grid img {
-  width: 70%;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 700px;
+  height: 700px;
+  border: 5px solid black;
+}
+
+.cell {
+  outline: 1px solid black;
 }
 
 .control-buttons {
@@ -28,6 +41,6 @@ header {
   margin-bottom: 20px; */
   margin: 15px 0 25px 20px;
   width: 12%;
-  background-color: blueviolet;
+  background-color: #596368;
   color: #fff;
 }

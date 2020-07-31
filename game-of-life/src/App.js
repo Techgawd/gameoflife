@@ -152,14 +152,14 @@
 // export default App;
 
 import React from 'react';
-import Header from './Components/Header';
+// import Header from './Components/Header';
 import Rules from './Components/Rules';
 import Grid from './Components/Grid'
 
 function App() {
     return (
       <div className="App">
-        <Header />
+        {/* <Header /> */}
         <Rules />
         <Grid />
       </div>
