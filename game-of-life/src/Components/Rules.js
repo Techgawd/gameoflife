@@ -19,7 +19,7 @@ function Rules() {
       // </div>
       <div>
       <Jumbotron>
-        <h1 className="display-3">Welcome to John Conway's "Game of Life"!</h1>
+        <h1 className="display-3">John Conway's Game of Life</h1>
         {/* <p className="lead">This is a computer science classic from 1970, a program that simulates a cellular automaton (plural automata). It has connections to all kinds of different aspects of computer science and nature.</p> */}
         {/* <hr className="my-2" /> */}
         {/* <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> */}
