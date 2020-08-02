@@ -6,15 +6,8 @@
   background-color: #EAECEF;
 }
 
-header {
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 1em;
-  margin-bottom: 2em;
-  background-color: blueviolet;
-  color: #fff;
+.header {
+margin: 15px;
 }
 
 .grid {
@@ -49,3 +42,24 @@ header {
   font-size: 30px;
   margin-top: 15px;
 }
+
+input {
+  width: 90px;
+  height: 40px;
+  font-size: 30px;
+ }
+ 
+ h1 {
+  margin-top: 15px;
+  font-size: 60px;
+ }
+
+ .input {
+   margin-top: 35px;
+ }
+
+ .cellSize {
+   font-size: 30px;
+   margin-top: 30px;
+   margin-left: 10px;
+ }
