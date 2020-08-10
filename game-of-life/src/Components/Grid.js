@@ -23,7 +23,6 @@ function useInterval(callback, delay) {
  }
 
 function Grid() {
- // react hook
  const [gridSize, setGridSize] = useState(20)
  const [grid, setGrid] = useState(createGrid(gridSize, -1))
  const [auto, setAuto] = useState(null)
@@ -138,15 +137,9 @@ function Grid() {
  </div>
  <p className='gen'>Generation No: {counter}</p>
  <div className='control-buttons'>
- {/* <button onClick={newGrid}>Play <FontAwesomeIcon icon={faPlay} /></button> */}
  <Button onClick={newGrid} color="success">PLAY 1 MOVE <FontAwesomeIcon icon={faPlay} /></Button>
  <Button onClick={autoPlay} color="success">PLAY <FontAwesomeIcon icon={faPlay} /></Button>
- {/* <button>Stop <FontAwesomeIcon icon={faStop} /></button> */}
  <Button onClick={autoStop} color="danger">STOP <FontAwesomeIcon icon={faStop} /></Button>
- {/* <button onClick={resetGrid}>Clear </button> */}
- {/* <button>Random </button> */}
- {/* <Button color="warning">RANDOM </Button> */}
- {/* <Button color="warning">CHANGE SPEED </Button> */}
  <Button onClick={resetGrid} color="info">CLEAR </Button>
  <p className="cellSize">Cell Size:</p>
  <input className="input" onKeyUp = {(e) => {setGridSize(e.target.value); console.log(gridSize)}} />
@@ -157,5 +150,6 @@ function Grid() {
  </div>
  )
  }
+ 
 
 export default Grid
